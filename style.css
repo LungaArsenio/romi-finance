@@ -39,7 +39,7 @@ body {
 } 
 
 .container {
-    margin: 62px 0;
+    margin: 64px 0;
 }
 
 /*
@@ -218,6 +218,161 @@ body {
     font-size: 30px;
 }
 
+/* 
+    FEATURES 
+*/
+
+.allLine {
+    border-top: 1px solid hsla(0,0%,100%,0.1607843137254902);
+    border-bottom: 1px solid hsla(0,0%,100%,0.1607843137254902);
+    width: 100%;
+    margin-top: 128px;
+}
+
+.main__features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 36px;
+    flex-wrap: wrap;
+    margin: 64px  0;
+}
+
+.main__feature__top {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.main__feature__top > p {
+    color: white;
+    font-size: 22px;
+}
+
+.main__feature__description {
+    color: #cecece;
+    font-size: 18px;
+    width: 100%;
+    max-width: 320px;
+}
+
+/* TOKEN */
+
+.tokens{
+    padding: 76px 0;
+}
+
+.tokens__title {
+    font-size: 38px;
+    font-weight: 600;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    margin-bottom: 32px ;
+}
+
+.token__cards {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.token__card {
+    border: 1px solid hsla(0,0%,100%,.0784313725490196);
+    box-shadow: 0 0.7rem 0.8rem rgba(0,0,0,.2);
+    border-radius: 8px;
+    background-color: #151515;
+    width: 100%;
+    max-width: 590px;
+    padding: 24px;
+}
+
+.token__img {
+    width: 40px;
+}
+
+.token__title {
+    display: flex;
+}
+
+.token__title > span {
+    color: white;
+    font-size: 27px;
+}
+
+.token__card__description {
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+}
+
+.token__card__stats {
+    font-size: 15px;
+    color: #cecece;
+    margin-top: 20px;
+}
+
+.token__card__btns {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.token__card__btn--left {
+    border-radius: 4px;
+    background: #3EB489;
+    color: white;
+    padding: 0 16px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.token__card__btn--left:hover {
+    background: #207A59;
+}
+
+.token__card__btn--right {
+    border: 1px solid #a7a7a9;
+    border-radius: 4px;
+    background-color: #151515;
+    color: white;
+    padding: 0 16px;
+    height: 36px;
+    font-size: 14px;
+}
+
+/* 
+    FOOTER 
+*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 36px;
+    margin-top: 64px;
+}
+
+.footer__logo{
+    width: 148px;
+}
+
+.footer__social__links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 12px 0;
+    gap: 50px;
+}
+
+
+
+.social {
+    width: 32px;
+}
 
 /*
      RESPONSIVITY
