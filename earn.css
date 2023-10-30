@@ -22,7 +22,7 @@
   border-radius: 8px;
   border: 1 px solid hsla(0, 0%, 100%, 0.0784313725490196);
   background: #151515;
-
+}
   .earn__card__title {
     color: white;
   }
@@ -33,4 +33,11 @@
     background: hsla(0, 0%, 100%, 0.0784313725490196);
     margin: 15px 0;
   }
+
+.earn__card__pair {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
 }
