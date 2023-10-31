@@ -20,7 +20,7 @@
   max-width: 600px;
   padding: 15px;
   border-radius: 8px;
-  border: 1 px solid hsla(0, 0%, 100%, 0.0784313725490196);
+  border: 1px solid #4d4d4e;;
   background: #151515;
 }
   .earn__card__title {
@@ -41,3 +41,16 @@
     color: white;
     font-size: 15px;
 }
+
+.card__btns{
+    display: flex;
+    gap: 12px;
+}
+
+.buySellBtn {
+    padding: 0 16px;
+    height: 36px;
+    border-radius: 8px;
+    background: #207A59;
+    color: white;
+} 
