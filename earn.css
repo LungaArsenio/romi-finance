@@ -34,12 +34,20 @@
     margin: 15px 0;
   }
 
+  .earn__cards {
+    margin: 22px 0;
+  }
+
 .earn__card__pair {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     font-size: 15px;
+}
+
+.earn__card__pair > p {
+  color: #cecece;
 }
 
 .card__btns{
@@ -51,6 +59,10 @@
     padding: 0 16px;
     height: 36px;
     border-radius: 8px;
-    background: #207A59;
+    background-color:#3EB489;
     color: white;
 } 
+
+.buySellBtn:hover {
+  background: #207A59;
+}
